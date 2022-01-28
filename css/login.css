@@ -1,0 +1,476 @@
+body#loginBody{ 
+    background-image: url('../images/supermarketcart_main.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #cccccc;
+}
+
+div.loginheader{
+    text-align: center;
+}
+
+div.loginheader h1{
+    font-size: 100px;
+    color: #f685a2;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+
+}
+
+div.loginheader h3{
+    color: #f685a2;
+    font-size: 50px;
+    margin: 0px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+div.loginheader h3:after{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+div.loginBody form{
+    margin: 0 auto;
+    width: 500px;
+    background: rgba(0,0,0,.5);
+    padding: 50px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+div.loginInputContainer{
+    margin: 20px;
+}
+
+div.loginInputContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+div.loginInputContainer input{
+    height: 30px;
+    width: 100%;
+    border: 2px solid #d40339;
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+div.loginInputContainer{
+    margin-top: 40px;
+    text-align: center;
+}
+
+div.loginButton{
+    margin-top: 40px;
+    text-align: center;
+}
+div.loginButton button{
+    font-size: 20px;
+    padding: 10px 40px;
+    background: #f685a2;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+div.header{
+    width: 100%;
+    height: 20px;
+    background: #f685a1;
+
+}
+div.banner{
+    background: url() no-repeat
+    center
+    center
+    fixed;
+    background-size: cover;
+    padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+div.homepagecontainer{
+    width: 100%;
+     max-width: 900px ;
+     margin: 0 auto;
+}
+
+div.bannerheader h1{
+    font-size: 100px;
+    color: #8946A6;
+}
+
+div.bannerheader h3{
+    font-size: 75px;
+    color: #8946A6;
+    text-transform: uppercase;
+}
+
+div.bannertagline{
+    font-size: 30px;
+}
+
+
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #ef8172;
+}
+
+
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ef8172;
+  width: 100%;
+    height: 400px;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 50px;
+ padding-bottom: 50px;
+
+}
+
+.bannertagline{
+  font-family: "Montserrat-Light";
+  font-size: 25px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ef8172;
+  
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+div.homepgeNotified{
+  display: flex;
+  flex-direction: row;
+  background: #e3e3e3;
+}
+
+.home{
+  background-color: azure;
+  height: 400px;
+
+}
+
+div.homepgeNotified h3{
+      margin-bottom: 20px;
+      padding-top: 50px;
+}
+
+div.homepgeNotified p{
+  color: #848484;
+}
+
+div.emailform{
+  width: 100%;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+div.emailform input:focus{
+  outline: none;
+}
+
+div.form input{
+  width: 40%;
+  padding: 15px 15px;
+  border-radius: 15px;
+  border: none;
+
+}
+
+div.form button{
+  position: relative;
+  right: 0;
+  top: 0;
+  height: 100%;
+  font-size: 20px;
+  padding: 0px 10px;
+  background: #ef8172;
+  border: none;
+  color: #fff;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+div.address{
+  text-align: center;
+  text-decoration: solid;
+  text-shadow: #f685a1;
+  padding-top: 50px;
+}
+
+div.header{
+  width: 100%;
+  background: #ef8172;
+  padding: 20px 10px;
+   text-align: center;
+  font-size: 20px;
+  height: 200px;
+}
+
+div.header a{
+  font-size: 20px;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+
+
+/* dashboard */
+
+#dashboardmaincontaine{
+    display: flex;
+    flex-direction:row ;
+
+}
+
+div.dashboard_sidebar{
+    width: 25%;
+    background: #323232;
+    height: 100%;
+}
+
+div.dashboard_content_container{
+    width: 70%;
+    background: #fff;
+    height: 10%;
+
+}
+
+h3.dashboard_logo{
+    color: #f685a1;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+img{
+  border-radius: 50%;
+  width: 150px;
+}
+
+.sidebar_user{
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.source{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.sidebar_user span{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  
+  display: inline-block;
+
+}
+ul.menu_list{
+
+  margin-top: 20px;
+}
+
+ul.menu_list li{
+  text-align: left;
+  padding: 5px 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+ul.menu_list li a{
+  text-decoration: none;
+  color: #cccccc;
+  padding-bottom: 10px;
+  display: block;
+}
+
+ul.menu_list li.s{
+  background: #f685a1;
+  color: #fff;
+}
+
+ul.menu_list li:hover{
+    background: #f685a1;
+    color: #fff;
+}
+
+div.dashboard_topNav{
+  background: #fff;
+
+
+}
+
+div.dashboard_topNav a{
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#logoutbtn{
+  float: right;
+}
